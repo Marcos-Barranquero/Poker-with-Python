@@ -41,7 +41,7 @@ if __name__ == "__main__":
     print(j1)
     j1.mano = baraja.generaMano()
 
-    for j in range(len(j1.mano)):
-        print(j1.mano[j])
+    for cada_carta in j1.mano:
+        print(cada_carta)
 
     print(j1)
